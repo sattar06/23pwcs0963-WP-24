@@ -1,0 +1,362 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('gym\ 2.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+
+}
+
+.navbar {
+    background-color: rgba(77, 21, 122, 0.7); 
+    padding: 20px 20px;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: -moz-popup;
+    justify-content: space-around;
+}
+
+.nav-links li {
+    margin: 0 15px;
+    transition: background-color 0.20; 
+}
+
+.nav-links li:hover {
+    background-color: rgba(18, 129, 105, 0.7); 
+}
+
+.nav-links a {
+    color:light orange;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 16px; 
+    display: ruby-base; 
+}
+
+
+.nav-links a:hover {
+    color: rgba(255, 247, 247, 0.568);  
+}
+.quote{
+    font: size 1.7em; ;
+    font-style:italic ;
+    color:black ;
+    margin: 24px; ;
+    padding: 12px; 
+    border: left 4px; ;
+    max-width:px ;
+    text-align:center ;
+    background-color:white ;
+    border: radius 6px; 
+}
+/*css style of the workout*/
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    background-color: #7d7d7d;
+    padding: 15px 20px;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.content {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #f5efef;
+}
+p{
+    color: white;
+}
+
+.workout {
+    background-color: rgba(179, 95, 248, 0.7);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 2px 5px rgba(0.1, 0.3, 0.2, 0.1);
+}
+
+h2 {
+    color: #555;
+}
+
+ul {
+    padding-left: 20px;
+}
+body {
+    margin: 0; 
+    font-family: Arial, sans-serif; 
+    background-color: #f4f4f4; 
+}
+
+.navbar {
+    background-color: #7d7d7d; 
+    padding: 15px 20px; 
+}
+
+.nav-links {
+    list-style-type: none; 
+    display: flex; 
+    justify-content: space-around; 
+}
+
+.nav-links li {
+    margin: 0 15px; 
+}
+
+.nav-links a {
+    color: white; 
+    text-decoration: none;
+    font-weight: bold; 
+}
+
+.content {
+    padding: 20px; 
+}
+
+
+
+
+
+.workout-content {
+    display: flex; 
+    align-items: flex-start; 
+}
+.workout h2 {
+    color: #070707; 
+    margin-bottom: 10px; 
+}
+ul {
+    flex: 1; 
+    padding-left: 20px; 
+    color: #000000; 
+}
+
+.workout-image {
+    width: 250px; 
+    height: auto; 
+    margin-left: 20px;
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+/* *******************************Nutrition***************************** */
+body {
+    font-family: Arial, sans-serif;
+    background-color:light red; 
+    margin: 0;
+    padding: 20px; 
+}
+
+.description {
+    display: grid; 
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+    gap: 20px; 
+}
+
+.Nutrition {
+    background-color: light red; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    overflow: hidden; 
+    text-align: center; 
+}
+
+.Nutrition imge {
+    width: 100%; 
+    height: auto; 
+}
+
+.text {
+    padding: 15px;
+}
+
+.text h3 {
+    color: #333; 
+    margin: 0 0 10px; 
+}
+
+.text p {
+    color: #555; 
+    line-height: 1.5; 
+}
+
+
+
+
+
+
+
+
+
+body {
+    
+    background-color: #060b0f; 
+    margin: 0;
+    padding: 20px; /
+}
+
+h1 {
+    text-align: center; 
+    margin-bottom: 20px; 
+}
+
+.gallery {
+    display: flex; 
+    flex-direction: column; 
+    gap: 20px; 
+}
+
+.gallery{
+    display: flex; 
+    align-items: center; 
+    background-color:blueviolet(255, 255, 255); 
+    border-radius: 8px; 
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1); 
+    overflow: hidden; 
+}
+
+.gallery img{
+    width: 100%; 
+    height: auto; 
+    border-radius: 8px 0 0 8px; 
+    transition: transform 0.3s; 
+}
+
+.gallery:hover {
+    transform: scale(1); 
+}
+
+.description {
+    width: 100%;
+    height: auto;
+    /* padding: 120px;  */
+    color:#f4f4f4(0, 0%, 33%); 
+    /* flex-grow: 1;  */
+}
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #04284b;
+}
+
+.navbar {
+    background-color: #7d7d7d; /
+    padding: 15px 20px;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: brown;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: orange; 
+    padding: 5px; 
+    border-radius: 5px; 
+}
+
+/* Contact form  */
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto; 
+    padding: 10px;
+    background-color: rgb(17, 82, 180);
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(210, 229, 137, 0.582); 
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contact-form label {
+    margin-top: 5px;
+    color: red;
+}
+
+.contact-form input, .contact-form textarea {
+    padding:5px;
+    margin-top: 5px;
+    border: 1px solid #007bff; 
+    border-radius: 5px; 
+}
+
+.contact-form button {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    background-color: #28a745; 
+    color: light red;
+    border-radius: 5px; 
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #5e631c; 
+}
+
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info h2 {
+    margin-top: 20px; 
+}
+
+.contact-info a {
+    color: #007bff; 
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline; 
+}
+
+
+
